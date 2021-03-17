@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/wallpaper6"
+    tools:context=".Fragments.ChatsFragment">
+    <!--"#CDC9C9"-->
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+        android:id="@+id/rv_users_contact_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shimmer_demo_child_count="10"
+        app:shimmer_demo_grid_child_count="2"
+        app:shimmer_demo_layout="@layout/loading_demo_layout"
+        app:shimmer_demo_layout_manager_type="linear_vertical"
+        app:shimmer_demo_angle="40"/>
+
+</FrameLayout>

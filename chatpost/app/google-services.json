@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "216996448680",
+    "project_id": "chatpost-ebff5",
+    "storage_bucket": "chatpost-ebff5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216996448680:android:5e7b08976ebbafe4b5f59d",
+        "android_client_info": {
+          "package_name": "com.example.chatpost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216996448680-47r382ustl7ii4igvejolda4s1hvrqtv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5wLeTeO0594JRNbWB8y_spvX9P6YCebQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216996448680-47r382ustl7ii4igvejolda4s1hvrqtv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

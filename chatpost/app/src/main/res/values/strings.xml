@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">chatpost</string>
+    <string name="email">Email</string>
+    <string name="user_s_name">User\'s name</string>
+    <string name="password">Password</string>
+    <string name="todo">TODO</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_account">Already have account?</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_have_account">Not having Account ? Sign Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_room_code">Enter the code here to join the room.</string>
+</resources>

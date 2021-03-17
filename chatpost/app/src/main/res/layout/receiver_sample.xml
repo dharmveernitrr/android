@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/receiver_reactions"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/constraint_layout"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/constraint_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_alignParentLeft="true"
+    android:background="@drawable/reciver_message_view"
+    android:maxWidth="310dp"
+    android:maxHeight="400dp"
+    android:minHeight="30dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:maxWidth="270dp"
+        android:minWidth="50dp"
+        android:paddingRight="16dp"
+        android:hint="image is loading.."
+        android:textColorHint="#d1b5c3"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_receiver_time"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:paddingEnd="16dp"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_receiver_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColorHint="#d1b5c3"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/tv_receiver_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxWidth="270dp"
+        android:minWidth="50dp"
+        android:visibility="gone"
+        android:scaleType="fitCenter"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_receiver_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="12:00"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

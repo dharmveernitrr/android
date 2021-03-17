@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Room Chat"
+        android:id="@+id/action_room_chat"
+        app:showAsAction="never"
+        android:orderInCategory="1"/>
+
+    <item android:title="Settings"
+        app:showAsAction="never"
+        android:id="@+id/action_settings"
+        android:orderInCategory="2"/>
+    <item
+        android:title="Log Out"
+        android:id="@+id/action_log_out"
+        app:showAsAction="never"
+        android:orderInCategory="3"/>
+
+
+</menu>
